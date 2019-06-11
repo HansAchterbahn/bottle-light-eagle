@@ -26441,7 +26441,7 @@ W = angled&lt;p&gt;
 <attribute name="EDITOR" value="Hans Achterbahn"/>
 <attribute name="LICENSE" value="MIT License"/>
 <attribute name="PROJECT" value="Bottle Light"/>
-<attribute name="VERSION" value="v0.2.5"/>
+<attribute name="VERSION" value="v0.2.6"/>
 </attributes>
 <variantdefs>
 </variantdefs>
