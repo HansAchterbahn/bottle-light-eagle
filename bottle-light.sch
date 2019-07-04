@@ -26789,7 +26789,7 @@ Created by Hans Achterbahn &lt;br /&gt;
 (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
 &lt;/author&gt;&lt;p&gt;</description>
 <packages>
-<package name="APA102C-5050" urn="urn:adsk.eagle:footprint:11858717/1" library_version="1" library_locally_modified="yes">
+<package name="APA102C-5050" urn="urn:adsk.eagle:footprint:11858717/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <description>&lt;p&gt;&lt;author&gt;
 Created by Hans Achterbahn &lt;br /&gt;
 (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
@@ -26801,18 +26801,22 @@ Created by Hans Achterbahn &lt;br /&gt;
 <smd name="5" x="2.45" y="0" dx="1.6" dy="1" layer="1" rot="R180"/>
 <smd name="6" x="2.45" y="-1.85" dx="1.6" dy="1" layer="1" rot="R180"/>
 <wire x1="-2.5" y1="2.5" x2="-2.5" y2="1.25" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="1.25" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="-1.25" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-1.25" y1="0" x2="0" y2="-1.25" width="0.127" layer="51" curve="90"/>
-<wire x1="0" y1="-1.25" x2="1.25" y2="0" width="0.127" layer="51" curve="90"/>
-<wire x1="1.25" y1="0" x2="0" y2="1.25" width="0.127" layer="51" curve="90"/>
-<wire x1="0" y1="1.25" x2="-1.25" y2="0" width="0.127" layer="51" curve="90"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.2" x2="2.5" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="0" x2="0" y2="-1.25" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="-1.25" x2="1.25" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="1.25" y1="0" x2="0" y2="1.25" width="0.127" layer="21" curve="90"/>
+<wire x1="0" y1="1.25" x2="-1.25" y2="0" width="0.127" layer="21" curve="90"/>
 <wire x1="-2.5" y1="1.25" x2="-1.25" y2="2.5" width="0.127" layer="51"/>
-<text x="-2" y="-2.8" size="1" layer="21" font="vector" align="top-left">&gt;NAME</text>
-<text x="-2" y="-4" size="1" layer="21" font="vector" align="top-left">&gt;VALUE</text>
+<text x="-2" y="-2.8" size="1" layer="25" font="vector" align="top-left">&gt;NAME</text>
+<text x="-2" y="-4" size="1" layer="27" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="1.25" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-0.6" x2="-2.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="0.6" x2="2.5" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.2" x2="-2.5" y2="0.6" width="0.127" layer="21"/>
+<circle x="-2" y="3" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="LED_3587" urn="urn:adsk.eagle:footprint:11858719/1" library_version="1" library_locally_modified="yes">
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="51"/>
@@ -27075,7 +27079,7 @@ Created by Hans Achterbahn &lt;br /&gt;
 (&lt;a href="https://github.com/HansAchterbahn"&gt;https://github.com/HansAchterbahn&lt;/a&gt;)
 &lt;/author&gt;&lt;p&gt;</description>
 <packages>
-<package name="781271128" urn="urn:adsk.eagle:footprint:11858677/1" library_version="14" library_locally_modified="yes">
+<package name="781271128" urn="urn:adsk.eagle:footprint:11858677/1" locally_modified="yes" library_version="18" library_locally_modified="yes">
 <description>&lt;b&gt;78127-1128&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-2.75" y="-1.2" dx="1.6" dy="0.4" layer="1" rot="R90"/>
@@ -27090,28 +27094,27 @@ Created by Hans Achterbahn &lt;br /&gt;
 <smd name="10" x="1.75" y="1.2" dx="1.6" dy="0.4" layer="1" rot="R90"/>
 <smd name="11" x="2.25" y="-1.2" dx="1.6" dy="0.4" layer="1" rot="R90"/>
 <smd name="12" x="2.75" y="1.2" dx="1.6" dy="0.4" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-4" y="3.5" size="1" layer="25" font="vector">&gt;NAME</text>
+<text x="-4" y="-4.5" size="1" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="4.05" y1="1.2" x2="-4.05" y2="1.2" width="0.2" layer="51"/>
 <wire x1="-4.05" y1="1.2" x2="-4.05" y2="-1.2" width="0.2" layer="51"/>
 <wire x1="-4.05" y1="-1.2" x2="4.05" y2="-1.2" width="0.2" layer="51"/>
 <wire x1="4.05" y1="-1.2" x2="4.05" y2="1.2" width="0.2" layer="51"/>
-<wire x1="-5.05" y1="3" x2="5.05" y2="3" width="0.1" layer="51"/>
-<wire x1="5.05" y1="3" x2="5.05" y2="-3" width="0.1" layer="51"/>
-<wire x1="5.05" y1="-3" x2="-5.05" y2="-3" width="0.1" layer="51"/>
-<wire x1="-5.05" y1="-3" x2="-5.05" y2="3" width="0.1" layer="51"/>
-<wire x1="-3" y1="1.2" x2="-4" y2="1.2" width="0.1" layer="21"/>
-<wire x1="-4" y1="1.2" x2="-4.05" y2="1.2" width="0.1" layer="21"/>
+<wire x1="-5.05" y1="3" x2="5.05" y2="3" width="0.1" layer="21"/>
+<wire x1="5.05" y1="3" x2="5.05" y2="-3" width="0.1" layer="21"/>
+<wire x1="5.05" y1="-3" x2="-5.05" y2="-3" width="0.1" layer="21"/>
+<wire x1="-5.05" y1="-3" x2="-5.05" y2="3" width="0.1" layer="21"/>
+<wire x1="-3" y1="1.2" x2="-4.05" y2="1.2" width="0.1" layer="21"/>
 <wire x1="-4.05" y1="1.2" x2="-4.05" y2="-1.2" width="0.1" layer="21"/>
 <wire x1="-4.05" y1="-1.2" x2="-3.5" y2="-1.2" width="0.1" layer="21"/>
-<wire x1="3" y1="-1.2" x2="4" y2="-1.2" width="0.1" layer="21"/>
-<wire x1="4" y1="-1.2" x2="4.05" y2="-1.2" width="0.1" layer="21"/>
+<wire x1="3" y1="-1.2" x2="4.05" y2="-1.2" width="0.1" layer="21"/>
 <wire x1="4.05" y1="-1.2" x2="4.05" y2="1.2" width="0.1" layer="21"/>
 <wire x1="4.05" y1="1.2" x2="3.5" y2="1.2" width="0.1" layer="21"/>
+<circle x="-4" y="-2" radius="0.1" width="0.2" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="781271128" urn="urn:adsk.eagle:package:11858679/2" type="model" library_version="14" library_locally_modified="yes">
+<package3d name="781271128" urn="urn:adsk.eagle:package:11858679/2" type="model" library_version="18" library_locally_modified="yes">
 <description>&lt;b&gt;78127-1128&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="781271128"/>
@@ -27141,7 +27144,7 @@ Created by Hans Achterbahn &lt;br /&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="78127-1128" urn="urn:adsk.eagle:component:11858680/2" prefix="J" library_version="16">
+<deviceset name="78127-1128" urn="urn:adsk.eagle:component:11858680/2" prefix="J" library_version="18" library_locally_modified="yes">
 <description>&lt;b&gt;FFC &amp; FPC Connectors 0.5 FPC CONN. VERTIC AL SMT NON-ZIF 12CKT&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.molex.com/pdm_docs/sd/781271128_sd.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -27187,11 +27190,11 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/781271128_sd.pdf"&gt; Data
 </library>
 </libraries>
 <attributes>
-<attribute name="DATE" value="27.06.2019"/>
+<attribute name="DATE" value="04.07.2019"/>
 <attribute name="EDITOR" value="Hans Achterbahn"/>
 <attribute name="LICENSE" value="MIT License"/>
 <attribute name="PROJECT" value="Bottle Light"/>
-<attribute name="VERSION" value="v0.2.7"/>
+<attribute name="VERSION" value="v0.2.8"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -27457,6 +27460,9 @@ I_Button = max. 0.04 mA @ 3.3 V</text>
 <text x="111.76" y="93.98" size="1.778" layer="97" font="vector">Touchpad:
 TM023023-2024-002 @ Cirque </text>
 <wire x1="175.26" y1="172.72" x2="175.26" y2="91.44" width="0.1524" layer="97" style="longdash"/>
+<text x="144.78" y="12.7" size="2.54" layer="97" align="top-left">https://github.com/
+HansAchterbahn/bottle-light</text>
+<text x="134.62" y="12.7" size="2.54" layer="94" align="top-left">URL:</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="50.8" y="66.04" smashed="yes">

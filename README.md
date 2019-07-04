@@ -15,7 +15,7 @@ In this Repository you can find the shematics and board layouts created in Eagle
 
 ## Board
 
-![LED Ring Board](doku/bottle-light-brd.png)
+![LED Ring Board](doku/bottle-light-brd.png) 
 
 ## 3D View (Fusion360)
 
