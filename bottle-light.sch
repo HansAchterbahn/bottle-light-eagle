@@ -27403,7 +27403,12 @@ Source: &lt;a href="https://www.molex.com/pdm_docs/sd/781271128_sd.pdf"&gt; Data
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="X2" library="Headers" library_urn="urn:adsk.eagle:library:11448911" deviceset="61300411121" device="" package3d_urn="urn:adsk.eagle:package:11390688/2"/>
-<part name="X4" library="UJ2-MIBH-4-SMT-TR" deviceset="UJ2-MIBH-4-SMT-TR" device="CUIINC_UJ2-MIBH-4-SMT-TR-2" override_package3d_urn="urn:adsk.eagle:package:11860564/2" override_package_urn="urn:adsk.eagle:footprint:11860565/1" override_locally_modified="yes" value="UJ2-MIBH-4-SMT-TR"/>
+<part name="X4" library="UJ2-MIBH-4-SMT-TR" deviceset="UJ2-MIBH-4-SMT-TR" device="CUIINC_UJ2-MIBH-4-SMT-TR-2" override_package3d_urn="urn:adsk.eagle:package:11860564/2" override_package_urn="urn:adsk.eagle:footprint:11860565/1" override_locally_modified="yes" value="UJ2-MIBH-4-SMT-TR">
+<attribute name="DATASHEET" value="https://www.mouser.de/datasheet/2/670/uj2-mibh-4-smt-1313358.pdf"/>
+<attribute name="MF" value="CUI"/>
+<attribute name="MFN" value="UJ2-MIBH-4-SMT-TR"/>
+<attribute name="MOUSER" value="490-UJ2-MIBH-4-SMT"/>
+</part>
 <part name="L1" library="Seeed-OPL-Inductor" deviceset="INDUCTOR/FERRITE-BEAD" device="'0603'" override_package3d_urn="urn:adsk.eagle:package:11863063/2" override_package_urn="urn:adsk.eagle:footprint:11863064/1" value="BLM18">
 <attribute name="MF" value="Murata"/>
 <attribute name="MFN" value="BLM18KG601SN1D"/>
@@ -28389,6 +28394,10 @@ APA102 Strip</text>
 <instance part="X4" gate="G$1" x="22.86" y="137.16" smashed="yes">
 <attribute name="NAME" x="17.76771875" y="147.8538" size="1.778" layer="95"/>
 <attribute name="VALUE" x="17.771109375" y="124.4378" size="1.778" layer="96"/>
+<attribute name="DATASHEET" x="22.86" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="22.86" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MFN" x="22.86" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER" x="22.86" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J1" gate="1" x="121.92" y="152.4" smashed="yes">
 <attribute name="NAME" x="120.65" y="154.94" size="1.778" layer="95"/>

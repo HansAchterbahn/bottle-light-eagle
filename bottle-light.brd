@@ -3,7 +3,7 @@
 <eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -35,7 +35,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -4006,6 +4006,10 @@ Your Multi-CB Team
 <attribute name="NAME" x="58" y="67" size="1" layer="26" font="vector" ratio="10" rot="MR0"/>
 </element>
 <element name="X4" library="UJ2-MIBH-4-SMT-TR" package="CUIINC_UJ2-MIBH-4-SMT-TR-2" override_package3d_urn="urn:adsk.eagle:package:11860564/2" override_package_urn="urn:adsk.eagle:footprint:11860565/1" override_locally_modified="yes" value="UJ2-MIBH-4-SMT-TR" x="28.5" y="1" smashed="yes" rot="R180">
+<attribute name="DATASHEET" value="https://www.mouser.de/datasheet/2/670/uj2-mibh-4-smt-1313358.pdf" x="28.5" y="1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="CUI" x="28.5" y="1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFN" value="UJ2-MIBH-4-SMT-TR" x="28.5" y="1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="490-UJ2-MIBH-4-SMT" x="28.5" y="1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="30" y="10.5" size="1" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="34" y="11" size="1" layer="27" rot="R180"/>
 </element>
