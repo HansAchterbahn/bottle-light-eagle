@@ -1,4 +1,4 @@
-# Todo
+# bottle-light: Todo
 
 ## Schematic
 
@@ -12,6 +12,7 @@
 * [ ] change to a STM32F4 microcontroller to get a real random number genearator -> maybe the STM32F415RG?
 * [ ] change programmer connector to FFC type
 * [ ] Add an additional potentiometer to have the option of not assembling the touchpad
+* [ ] check USB power input settings
 
 ## Board
 
